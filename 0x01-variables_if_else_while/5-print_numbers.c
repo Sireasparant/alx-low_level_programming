@@ -6,7 +6,7 @@
  * this program prints: "Programming is positive, zero, or negative"
  * Return: 0
  */
-int main(viod)
+int main(void)
 {
 	for (i = 0; i < 10; i++)
 	{

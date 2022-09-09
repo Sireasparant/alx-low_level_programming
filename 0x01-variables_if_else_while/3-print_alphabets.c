@@ -6,17 +6,18 @@
  * this program prints "Programming is positive, zero, or negative"
  * Return: 0
  */
-int main(viod)
+int main(void)
 {
-	char ch;
-	for (ch = 'a' ; ch <= 'z' ; ch++)
+	char lower_case;
+	char upper_case;
+	for (lower_case = 'a'; lower_case <= 'z'; upper_case++)
 	{
-		putchar(ch);
+		putchar(lower_case);
 	}
-	for (ch ='A' ; ch <= 'Z' ; ch++)
+	for (upper_case ='A'; upper_case <= 'Z'; upper_case++)
 	{
-		putchar(ch);
+		putchar(upper_case);
 	}
 	putchar('\n');
 	return (0);
-}
+i}

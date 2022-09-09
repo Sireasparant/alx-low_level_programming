@@ -5,7 +5,7 @@
  * this program prints "0, 1, 2, 3, 4, 5, 6, 7, 8, 9"
  * Return: 0
  */
-int main(viod)
+int main(void)
 {
 	inc c;
 	for (c = 48; c <= 75; c++)
