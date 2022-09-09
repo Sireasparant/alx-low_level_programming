@@ -1,14 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - print the string in the put function
- *
- * Description: using the main function
- * 
- * Return: 0
+ * main -print "with proper grammar, but the outcome is a piece of art,"
+ * Return: 0 if exited properly, non-zero otherwise
  */
 int main(void)
 {
-	printf("with proper grammer, but the outcome is a piece of art,\n");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
