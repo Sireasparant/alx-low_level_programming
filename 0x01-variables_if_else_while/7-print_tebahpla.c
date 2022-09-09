@@ -1,20 +1,17 @@
 #include <stdio.h>
 /**
- * main - print if the number is positive, zero, or negative
+ * main - Entry point
  *
- * Desription: using the main function
- * this program prints: "Programming is positive, zero, or negative"
- * Return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	char c;
-	for (c = 'z'; c >= 'a'; c--)
+
+	for (c = 122; c >= 97; c--)
 	{
 		putchar(c);
 	}
-	putchar(c);
-}
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
