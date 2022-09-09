@@ -1,14 +1,13 @@
 #include <studio.h>
 /**
+ * main - print the string in the put function
  *
- * main -Entry point
- *
- * Return: 0 after printing the function
+ * Description: using the main function
+ * this program prints "Programming is like building a multilinqual puzzle"
+ * Return: 0 
  */
 int main(void)
 {
-	char myChar[55];
-	strcpy(myChar, "\"Programming is like building a multilingual puzzzle");
-	puts(myChar);
+puts("\"Programming is like building a multilingual puzzzle");
 	return (0);
 }
