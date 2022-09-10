@@ -1,15 +1,14 @@
 #include <stdio.h>
 /**
- * main - print if the number is positive, zero, or negative
+ * main - Entry point
  *
- * Description: using the main function
- * this program prints "Programming is positive, zero, or negative"
- * Return: 0
+ * Return: Always 0 success
  */
 int main(void)
 {
 	char lower_case;
 	char upper_case;
+
 	for (lower_case = 'a'; lower_case <= 'z'; upper_case++)
 	{
 		putchar(lower_case);
@@ -20,4 +19,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-i}
+}
