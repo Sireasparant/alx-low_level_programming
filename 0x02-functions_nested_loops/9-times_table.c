@@ -4,19 +4,25 @@
  */
 void times_table(void)
 {
-	int h;
-	int m;
+	int rw, col, d;
 
-	for (h = 0; h < 24; h++)
+	for (rw = 0; rw <= 9; rw++)
 	{
-		for (m = 0; m < 60; m++)
+		_putchar('0');
+		_putchar(',');
+		_putchar(' ');
+
+		for (col = 1; col <= 9; col++)
 		{
-			_putchar((h / 10) + '0');
-			_putchar((h % 10) + '0');
-			_putchar(':');
-			_putchar((m / 10) + '0');
-			_putchar((m % 10) + '0');
-			_putchar('\n');
+			d = (rw * col);
+			if ((d / 10) > 0)
+			{
+				_putchar((d / 10) + '0');
+			}
+			else
+			{
+				_putchar(' ');
+			}
 		}
 	}
 }
