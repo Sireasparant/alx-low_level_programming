@@ -6,12 +6,12 @@ void times_table(void)
 {
 	int num;
 	int mult;
-	int prod = num * mult;
+	int prod;
 
 	for (num = 0; num <= 9; num++)
 	{
 		for (mult = 1; mult <= 9; mult++)
-			prod = num * mult
+			prod = num * mult;
 			if (j == 0)
 			{
 				_putchar('0')
