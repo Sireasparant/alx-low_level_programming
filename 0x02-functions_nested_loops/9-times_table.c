@@ -12,7 +12,7 @@ void times_table(void)
 	{
 		for (mult = 1; mult <= 9; mult++)
 			prod = num * mult;
-			if (j == 0)
+			if (mult == 0)
 			{
 				_putchar('0')
 			}
