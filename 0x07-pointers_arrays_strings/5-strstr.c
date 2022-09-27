@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strstr - a function to locate substring
+ * strstr - locate substring
  * @haystack: sting in which to check for needle
  * @needle: substring to find in haystack
  *
@@ -10,8 +10,7 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	unsigned int i = 0;
-	unsigned int j = 0;
+	unsigned int i = 0; j = 0;
 
 	while (haystack[i])
 	{
