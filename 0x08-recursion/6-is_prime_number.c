@@ -15,7 +15,7 @@ int is_prime_number(int n)
 	return (_is_prime(n, start));
 }
 /**
- * _is_prime_number - returns 1 if number is prime
+ * _is_prime - returns 1 if number is prime
  * @start: number to be checked
  * @n: number to be checked
  *
@@ -27,5 +27,5 @@ int _is_prime(int start,int n)
 		return (1);
 	else if (n % start == 0)
 		return (0);
-	return(_is_prime(n, start - 1);
+	return (_is_prime(n, start - 1));
 }
