@@ -2,8 +2,8 @@
 
 /**
  * str_concat - a function that concatenates two strings
- * @1: first string
- * @2: secound string
+ * @s1: first string
+ * @s2: secound string
  *
  * Return: Null incase of success
  */

@@ -33,7 +33,7 @@ int num_words(char *str)
 		{
 			i++;
 		}
-		else if (((str[i] == '') || (str[i] = '\0')))
+		else if (((str[i] == '') || (str[i] == '\0')))
 		{
 			words += 1;
 			i++;
@@ -67,7 +67,7 @@ char **strtow(char *str)
 				size++;
 			else if (((str[i] == '') || (str[i] == '\0')) && i && (str[i - 1] != ''))
 			{
-				split[j] = (char *) malloc(sizeof(char) * size +1);
+				split[j] = (char *) malloc(sizeof(char) * size + 1);
 				if  (split[j] != NULL)
 				{
 					while (temp < size)
@@ -84,7 +84,7 @@ char **strtow(char *str)
 					while (j-- >= 0)
 						free(split[j]);
 					free(split);
-					free (split);
+					free(split);
 					return (NULL);
 				}
 			}
@@ -92,6 +92,5 @@ char **strtow(char *str)
 		split[words] = NULL;
 		return (split);
 	}
-	else
-		return (NULL);
+	return (NULL);
 }

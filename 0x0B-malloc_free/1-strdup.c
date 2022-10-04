@@ -3,10 +3,10 @@
 /**
  * _strdup - returns a pointer to a newly allocated space in memory
  * @str: string to be copied
- * 
+ *
  * Return: Null in case of error, pointer to allocated space
  */
- char *_strdup(char *str)
+char *_strdup(char *str)
 {
 	char *cpy;
 	int index, len;
@@ -17,7 +17,7 @@
 	cpy = malloc(sizeof(char) * (len + 1));
 	if (cpy == NULL)
 		return (NULL);
-	if (index = 0; str[index]; index++)
+	for (index = 0; str[index]; index++)
 	{
 		cpy[index] = str[index];
 	}
