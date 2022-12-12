@@ -1,1 +1,0 @@
-bginning of C programming
